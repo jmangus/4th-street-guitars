@@ -1,0 +1,164 @@
+* {
+	font-family: 'Nixie One', cursive;
+	font-size: 1em;
+}
+
+@media all and (max-width: 1000px) {
+  .header { display: none; }
+}
+
+@media all and (max-width: 740px) {
+  .carousel-text { display: none !important; }
+}
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+	display: block;
+	height: 100%;
+	max-width: 100%;
+	line-height: 1;
+	width: 100%;
+	z-index: 1;
+}
+
+.header {
+  background: -webkit-linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.2)); /*Safari 5.1-6*/
+  background: -o-linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.2)); /*Opera 11.1-12*/
+  background: -moz-linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.2)); /*Fx 3.6-15*/
+  background: linear-gradient(to rgba(0,0,0,1), rgba(0,0,0,0.2)); /*Standard*/
+}
+
+.logo {
+	margin:0;
+	margin-top: -30px;
+	padding: 0;
+	position: absolute;
+}
+
+#list-right {
+	padding-left: 220px;
+}
+
+.header {
+	position: absolute;
+	text-align: center;
+	height: 100px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	z-index: 100;
+	width: 100% !important;
+}
+
+.header-row {
+	width: 100% !important;
+	margin-top: 15px;
+}
+
+.header ul li{
+	list-style-type: none;
+	display: inline;
+	font-size: 24px;
+	padding: 30px 25px;
+	color: #fffced;
+	text-shadow:2px 2px 2px black;
+}
+
+.btn-primary {
+	background-color: #2b2b2b !important;
+	color: #fffdec;
+	border: 1px solid ;
+}
+
+.buffer {
+	height: 300px;
+	background-color: #fffced;
+	border-top: 1px solid #fffced;
+	border-bottom: 1px solid #fffced;
+}
+
+.main {
+	margin: 0;
+	padding: 0;
+	background-color: #2b2b2b;
+	color: #fffced;
+	text-shadow:2px 2px 2px black;
+}
+
+.main .container {
+	width: 100%;
+	padding: 0;
+}
+
+.main-box {
+	padding: 0;
+}
+.main-box h1, p {
+	padding: 50px;
+}
+
+.main img {
+	height: auto;
+	width: 100%
+}
+
+.box4 {
+	text-align: right;
+}
+
+.supporting {
+	height: 150px;
+	background-color: #f7f7f7;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+}
+
+.supporting h1 {
+	text-align: center;
+	padding: 40px;
+}
+
+.buffer2 {
+	height: 100px;
+	background-color: #fffced;
+	border-top: 50px solid #2b2b2b;
+	border-bottom: 1px solid white;
+}
+
+.footer {
+	height: 200px;
+	background-color: #2b2b2b;
+	text-align: center;
+}
+
+.footer-text {
+	color: #fffced;
+	padding-top: 25px;
+
+}
+
+.social-icons {
+	height: 40px;
+	margin: 5px;
+
+}
+
+.address {
+	margin: 0;
+}
+
+#map {
+    width: 100%;
+    height: 400px;
+    background-color: #CCC;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
